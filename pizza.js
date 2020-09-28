@@ -12,7 +12,7 @@ const pizzas = [
         price: 22
     }
 ];
-const randomElement = array[Math.floor(Math.random() * pizzas.length)]; 
-console.log("თქვენი პიცა (random, pizzas[random]) მზადდება");
+const randomElement = pizzas[Math.floor(Math.random() * pizzas.length)]; 
+console.log("თქვენი პიცა " + randomElement.name + " მზადდება");
 
  
